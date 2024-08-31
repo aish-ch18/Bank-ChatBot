@@ -1,4 +1,10 @@
 body {
+  background-image: url('https://imgs.search.brave.com/6ranVHazbSCzwV0FXZFD1XQB0rX74JB4oZEG07SQsBU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9jYXJ0b29uLWJh/bmstYnVpbGRpbmct/d2l0aC1vcGVuXzEw/MTUyNTUtMTkzMDgz/LmpwZz9zaXplPTYy/NiZleHQ9anBn'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+      padding-top: 50px; 
+    padding-bottom: 50px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -34,7 +40,7 @@ nav ul li a {
     margin: 10px auto;       
     padding: 20px;            
     border: 1px solid rgba(0, 0, 0, 0.1);   
-    border-radius: 15px;     
+    border-radius: 0;     
     background-color: #f0f0f0; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     box-sizing: border-box;   
@@ -45,10 +51,11 @@ nav ul li a {
     margin: 10px auto;       
     padding: 20px;            
     border: 1px solid rgba(0, 0, 0, 0.1);   
-    border-radius: 15px;     
+    border-radius: 15px;    
     background-color: #f0f0f0; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    box-sizing: border-box;   
+    box-sizing: border-box;  
+   opacity: 0.7;
 }
 .container2 {
     width: 90%;              
@@ -59,6 +66,7 @@ nav ul li a {
     background-color: #f0f0f0; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     box-sizing: border-box;   
+  opacity: 0.7;
 }
 .container3 {
     width: 90%;              
@@ -68,26 +76,28 @@ nav ul li a {
     border-radius: 15px;     
     background-color: #f0f0f0; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    box-sizing: border-box;   
+    box-sizing: border-box;
+  opacity: 0.7;
 }
 .container4 {
     width: 90%;              
     margin: 20px auto;       
     padding: 20px;            
     border: 1px solid rgba(0, 0, 0, 0.1);   
-    border-radius: 0;     
+    border-radius: 15px;     
     background-color: #f0f0f0; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     box-sizing: border-box;   
+  opacity: 0.7;
 }
 h2 {
-  color: #3867d6 ; 
+  color: #2d3436 ; 
 }
 h3 {
   color: #2c3e50 ; 
 }
 p {
-  color: #16a085 ; 
+  color: #2d3436 ; 
 }
 h4 {
   color: #e74c3c;\
